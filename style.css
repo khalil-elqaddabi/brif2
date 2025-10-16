@@ -302,6 +302,23 @@ width: 35rem;
    
 
 }
+.games-title{
+    text-align: center;
+}
+.games-info{
+    display: flex;
+    justify-content: space-around;
+}
+.games-info i{
+margin: 1rem 0;
+}
+.mamber{
+    color: #007bff
+    
+}
+.medal{
+    color: #B300FF;
+}
 
 
 
