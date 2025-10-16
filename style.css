@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navigation-bar{
+    display: flex;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    align-items: center;
+    position: fixed;
+    padding: 20px 80px;
+    width: 100%;
+    justify-content: space-around;
+    
+    
+    
+
+}
+body{
+   
+   background: rgb(8, 2, 18);
+}
+.nav-bar{
+    /* flex-grow: 1; */
+}
+
+    
+
+.nav-bar ul {
+    display: flex;
+    
+
+}
+.nav-bar li {
+    list-style: none;
+}
+
+
+
+
+
+.logo {
+    text-decoration: none;
+    
+    background: linear-gradient(to right,#00CFFF,#B300FF);
+    color: transparent;
+    background-clip: text;
+    /* flex-grow: 2; */
+}
+.nav-bar a{
+    
+   
+    color: #fff;
+    
+    margin: 15px;
+    
+    
+   
+    text-decoration: none;
+    
+    
+    
+}
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
+.nav-log a {
+    background: linear-gradient(to right,#00CFFF,#B300FF);
+   color: #fff;
+   margin: 10px;
+   border-radius: 9px;
+   text-decoration: none;
+   padding: 5px 10px;
+   
+}
+
+
+ .nav-bar .button {
+   /* width: 150px; */
+   background: linear-gradient(to right,#00CFFF,#B300FF);
+   padding: 5px 10px;
+   height: 35px;
+   width: 120px;
+   border-radius: 9px;
+   
+ }
+
+.hero {
+     background: url(photos/hero-section2.png) no-repeat;
+     background-size: cover;
+     min-height: 100vh;
+     background-position: center;
+     color: #fff;
+     text-align: center;
+    align-items: center;
+}
+
+.hero h1 {
+    background: linear-gradient(to right,#00CFFF,#B300FF,#00CFFF);
+    color: transparent;
+    background-clip: text;
+    padding-top: 10%;
+    padding-left: 300px;
+    font-size: 60px;
+    width: 1000px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* background-size: 100%; */
+    /* background-position: 50%; */
+    font-weight:    400;
+}
+.hero p{
+    margin: 2%;
+}
+.hero > div:first-child{
+    display: flex;
+    gap: 0.5px;
+}
+.live{
+    background: transparent;
+    color:#00CFFF;
+    border-radius: 9px ;
+     border:  solid 2px #00CFFF;
+     padding: 10px 10px;
+}
+
+
+.start{
+    background: linear-gradient(to right,#00CFFF,#B300FF);
+    padding: 10px 10px;
+    border-radius: 9px;
+    margin: 2%;
+    color: #fff;
+}
+     
+
+
+
+    
+
+hr{
+    border: 0;
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(to right,#151515,#00CFFF,#161717);
+    border-radius: 5px;
+    
+}
+
+
+ .footer-section{
+    color: #fff;
+    
+     }
+  .footer-section a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+
+
+     
+
+.slide{
+    padding: 30px 140px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+.side{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.slide .side p{
+    margin: 5px;
+    width: 300px;
+    
+
+}
+.logo-footer{
+    background: linear-gradient(to right,#00CFFF,#B300FF);
+    color: transparent;
+    background-clip: text;
+}
+
+.pri a{
+    margin: 10px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    gap :10px;
+}
+.icon i{
+    font-size: 25px;
+}
+.icons {
+    font-size: 20px;
+    
+    
+}
+
