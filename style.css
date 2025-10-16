@@ -237,7 +237,6 @@ width: 35rem;
                 
 
 
-    /* justify-content: space-around; */
     padding:  0 6rem ;
     
 }
@@ -264,7 +263,7 @@ width: 35rem;
   border: 0.1rem solid #55616e;
   border-radius: 1.3rem;
   width: 20rem;
-  /* text-align: center; */
+  
   box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
   overflow: hidden; 
   padding-bottom: 1rem;
@@ -284,12 +283,12 @@ width: 35rem;
     padding: 0.5rem 1rem  ;
     background: linear-gradient(to right,#00CFFF,#B300FF);
     border-radius: 0.9rem;
-    width: 80%;
+    width: 90%;
     display: inline-block;
     text-decoration: none;
     color: #fff;
     text-align: center;
-    margin:  0 2rem;
+    margin:  0 1rem;
     
    
     
@@ -302,6 +301,7 @@ width: 35rem;
    
 
 }
+/* games section */
 .games-title{
     text-align: center;
 }
@@ -319,6 +319,12 @@ margin: 1rem 0;
 .medal{
     color: #B300FF;
 }
-
+.join{ 
+    background: transparent !important;
+  color: #B300FF !important;
+  border-radius: 0.6rem !important;
+  border: solid 0.2rem #B300FF;
+  padding: 1rem 1rem;
+  font-size: 1rem;}
 
 
