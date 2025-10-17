@@ -263,7 +263,7 @@ width: 35rem;
   border: 0.1rem solid #55616e;
   border-radius: 1.3rem;
   width: 20rem;
-  
+  height: 30rem;
   box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
   overflow: hidden; 
   padding-bottom: 1rem;
@@ -301,7 +301,7 @@ width: 35rem;
    
 
 }
-/* games section */
+/* teams section */
 .games-title{
     text-align: center;
 }
@@ -325,6 +325,28 @@ margin: 1rem 0;
   border-radius: 0.6rem !important;
   border: solid 0.2rem #B300FF;
   padding: 1rem 1rem;
-  font-size: 1rem;}
+  font-size: 1rem;
+}
+/* /////////////////////////////////////////////////////// */
+.img-games{
+    height: 110% !important;
+    
+}
+.card-text{
+    position: absolute;
+    
+    left: 1rem;
+    bottom: 1rem;
+  
+
+}
+.card-text h3 {
+    padding: 1rem 0;
+}
+.control{
+  color: #007bff;
+}
+
+
 
 
