@@ -116,7 +116,11 @@ body {
   margin: 2%;
   color: #fff;
   font-size: 1rem;
-
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.start:hover{
+  transform: scale(1.05);
 }
 
 hr {
@@ -186,7 +190,7 @@ hr {
 .cta{
 display: flex;
 flex-direction: column;
-background: url(photos/Screenshot\ 2025-10-14\ 114435.png);
+background: url(photos/a-minimalist-digital-artwork-featuring-a_BKgDaVSrQheGgNlXQASGMA_L-stjskqS0qrvLnMUGW7lA.jpeg);
 background-size: cover;
 background-position: center;
 gap: 20px;
@@ -255,6 +259,18 @@ width: 35rem;
     margin: 4rem;
     display: flex;
     justify-content: space-between;
+         transition: transform 0.5s ease, box-shadow 0.20s ease;
+    
+     /* background-color: #fff; */
+}
+
+ 
+    
+     /* background-color: #fff; */
+
+.tast :hover {
+  /* transform: translateY(-10px); */
+  transform: scale(1.05);
 }
 .card {
   
@@ -268,15 +284,15 @@ width: 35rem;
   overflow: hidden; 
   padding-bottom: 1rem;
   color: #fff;
-  
-  
-  
+ 
+ 
 }
+
 .card img{
       width: 100%;
   height: 15rem;
   object-fit: cover;
-  border-bottom:  solid #007bff;
+  border-bottom:  solid ;
  
 }
 .card a {
@@ -346,6 +362,92 @@ margin: 1rem 0;
 .control{
   color: #007bff;
 }
+
+/* blog */
+.card-blog{
+ background: transparent;
+   backdrop-filter: blur(2rem);
+  border: 0.1rem solid #55616e;
+  border-radius: 1.3rem;
+  width: 27rem;
+  height: 33rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  overflow: hidden; 
+  padding-bottom: 1rem;
+  color: #fff;
+}
+.card-blog img{
+      width: 100%;
+  height: 13rem;
+  object-fit: cover;
+  border-bottom:  solid #007bff;
+}
+
+.card img, .info-card, .card-blog img, .card-text{
+  
+  pointer-events: none;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.card-blog a{
+  color: #00CFFF;
+  
+}
+.read{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+  border: solid 0.07rem #00CFFF;
+  /* background: linear-gradient(to right,#00CFFF,#B300FF); */
+  padding: 1rem;
+  width: 100%;
+  border-radius: 0.6rem;
+}
+.read a{
+  width: 100px;
+  text-decoration: none;
+}
+.read a {
+  text-decoration: u;
+}
+.read i{
+  color: #00CFFF;
+}
+/* contact */
+
+
+.body{
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  color: #fff;
+  
+  background: url(photos/hero-section2.png);
+  background-size: cover;
+  background-position: center;
+}
+.form{
+  background: #007bff;
+  width: 45rem;
+  text-align: center;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+}
+
+.form h1 {
+  background: linear-gradient(to right,#00CFFF,#B300FF);
+  color: transparent;
+  background-clip: text;
+  text-align: center;
+  font-size: 3.6rem;
+}
+.user
 
 
 
