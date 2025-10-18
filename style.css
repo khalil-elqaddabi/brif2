@@ -428,17 +428,43 @@ margin: 1rem 0;
   align-items: center;
   color: #fff;
   
-  background: url(photos/hero-section2.png);
+  background: url(photos/Screenshot\ 2025-10-14\ 114435.png);
   background-size: cover;
   background-position: center;
 }
 .form{
-  background: #007bff;
+  background:transparent;
+  backdrop-filter: blur(3rem);
   width: 45rem;
   text-align: center;
   padding: 2rem 3rem;
   border-radius: 1rem;
 }
+.form input {
+    border-radius: 1rem;
+    padding:  0.5rem 1rem;
+  
+    background: transparent;
+    color: #fff;
+    border: 0.2rem solid #00CFFF;
+    outline: none;
+
+}
+ ::placeholder{
+color: white;
+}
+.content textarea{
+  padding: 0.5em;
+   -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 7px;
+    outline: none;
+    background: transparent;
+    color: white;
+    border: 0.2rem solid #00CFFF;
+
+}
+
 
 .form h1 {
   background: linear-gradient(to right,#00CFFF,#B300FF);
@@ -446,8 +472,14 @@ margin: 1rem 0;
   background-clip: text;
   text-align: center;
   font-size: 3.6rem;
+  padding: 3rem;
 }
-.user
+.user{
+  width: 100%;
+  height: 5rem;
+  
+}
+
 
 
 
