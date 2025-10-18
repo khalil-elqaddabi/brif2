@@ -242,7 +242,7 @@ width: 35rem;
     background-position: center;
     
     display: flex;
-      height: 100rem;
+      height: auto;
         flex-direction: column;
         color: #fff;
                 
@@ -539,10 +539,11 @@ text-decoration: none;
 }
 .select select{
  
-  /* background: transparent ; */
   border: 0.2rem solid #00CFFF;
   outline: none;
   border-radius: 0.6rem;
+  /* background: transparent ; */
+  /* -webkit-appearance: none; */
  
   
 }
