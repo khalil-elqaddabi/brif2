@@ -530,3 +530,16 @@ text-decoration: none;
   color: white;
   text-decoration: none;
 }
+/* join */
+.select{
+  padding: 1rem;
+}
+.select select{
+ 
+  /* background: transparent; */
+  border: 0.2rem solid #00CFFF;
+  outline: none;
+  border-radius: 0.6rem;
+ 
+  
+}
