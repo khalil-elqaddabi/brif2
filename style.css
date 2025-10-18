@@ -237,10 +237,12 @@ width: 35rem;
 /* ///////////////////////////////////////////////////////////////////////////////////////// */
 /* the cards */
 .tour-section{
-    background: url(photos/Screenshot\ 2025-10-14\ 114435.png);
+    background: url(photos/Screenshot\ 2025-10-14\ 114435.png)no-repeat;
+     background-size: cover;
+    background-position: center;
     
     display: flex;
-      height: 50rem;
+      height: 100rem;
         flex-direction: column;
         color: #fff;
                 
@@ -262,8 +264,9 @@ width: 35rem;
 }
 .tast{
     margin: 4rem;
-    display: flex;
-    justify-content: space-between;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
          transition: transform 0.5s ease, box-shadow 0.20s ease;
     
      /* background-color: #fff; */
@@ -536,12 +539,14 @@ text-decoration: none;
 }
 .select select{
  
-  /* background: transparent; */
+  /* background: transparent ; */
   border: 0.2rem solid #00CFFF;
   outline: none;
   border-radius: 0.6rem;
  
   
 }
-
+/* .select option{
+  background-color: ;
+} */
 
