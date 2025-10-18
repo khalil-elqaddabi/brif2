@@ -167,8 +167,13 @@ hr {
   color: transparent;
   background-clip: text;
 }
+.pri{
+  display: flex;
+  justify-content: space-between;
+}
 
 .pri a {
+  
   margin: 1rem;
 }
 
@@ -190,7 +195,7 @@ hr {
 .cta{
 display: flex;
 flex-direction: column;
-background: url(photos/a-minimalist-digital-artwork-featuring-a_BKgDaVSrQheGgNlXQASGMA_L-stjskqS0qrvLnMUGW7lA.jpeg);
+background: url(photos/Screenshot\ 2025-10-14\ 114435.png);
 background-size: cover;
 background-position: center;
 gap: 20px;
@@ -232,7 +237,7 @@ width: 35rem;
 /* ///////////////////////////////////////////////////////////////////////////////////////// */
 /* the cards */
 .tour-section{
-    background: #000000;
+    background: url(photos/Screenshot\ 2025-10-14\ 114435.png);
     
     display: flex;
       height: 50rem;
@@ -453,6 +458,9 @@ margin: 1rem 0;
  ::placeholder{
 color: white;
 }
+.check {
+  padding: 1rem;
+}
 .content textarea{
   padding: 0.5em;
    -webkit-border-radius: 5px;
@@ -479,8 +487,46 @@ color: white;
   height: 5rem;
   
 }
+ footer a{
+  display: block !important;
+  padding: 0.4rem !important;
+}
+
+/* login */
+.Remember {
+ display: flex;
+ justify-content: space-between;
+ margin: 0 10rem;
+ padding: 0 1rem 4rem ;
+}
+.Remember a {
+color: white;
+text-decoration: none;
+}
+.Remember a:hover{
+  text-decoration: underline;
+  
+}
+
+  a:hover{
+   color: #00CFFF !important;
+}
+.or{
+  padding: 0.6rem ;
+  background-color: white;
+  color: black;
+  width: 3rem;
+  margin: 1rem 18rem;
+  border-radius: 0.6rem;
+}
 
 
-
-
-
+.sign {
+  display: flex;
+  justify-content: center;
+    
+}
+.sign a{
+  color: white;
+  text-decoration: none;
+}
