@@ -10,13 +10,12 @@ html {
 
 .navigation-bar {
   display: flex;
+  justify-content: space-around;
   background: transparent;
   backdrop-filter: blur(2rem);
-  align-items: center;
   position: fixed;
   padding: 2rem 8rem;
   width: 100%;
-  justify-content: space-around;
   z-index: 2;
 }
 
@@ -26,22 +25,23 @@ body {
 
 .nav-bar ul {
   display: flex;
+   list-style: none;
 }
 
-.nav-bar li {
-  list-style: none;
-}
 
 .logo {
   text-decoration: none;
   background: linear-gradient(to right, #00CFFF, #B300FF);
   color: transparent;
   background-clip: text;
+  
 }
 
 .nav-bar a {
   color: #fff;
-  margin: 1.5rem;
+  display: block;
+  padding:1rem;
+  /* margin: 1.5rem; */
   text-decoration: none;
   
 }
@@ -62,8 +62,7 @@ body {
 .nav-bar .button {
   background: linear-gradient(to right, #00CFFF, #B300FF);
   padding: 0.5rem 1rem;
-  height: 3.5rem;
-  width: 12rem;
+  margin-left:2rem;
   border-radius: 0.9rem;
  
 }
@@ -75,7 +74,10 @@ body {
   background-position: center;
   color: #fff;
   text-align: center;
+  /* display: flex;
+  flex-direction: column;
   align-items: center;
+   */
 }
 
 .hero h1 {
@@ -84,6 +86,7 @@ body {
   background-clip: text;
   padding-top: 10%;
   padding-left: 18rem;
+ 
   font-size: 6rem;
   width: 90rem;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -95,16 +98,12 @@ body {
   font-size: 2rem;
 }
 
-.hero > div:first-child {
-  display: flex;
-  gap: 0.05rem;
-}
 
 .live {
   background: transparent;
   color: #00CFFF;
   border-radius: 0.9rem;
-  border: solid 0.2rem #00CFFF;
+  border:  0.2rem solid #00CFFF;
   padding: 1rem 1rem;
   font-size: 1rem;
 }
@@ -133,11 +132,15 @@ hr {
 
 .footer-section {
   color: #fff;
+  border-bottom: 0.3rem solid #B300FF;
 }
 
 .footer-section a {
   color: #fff;
   text-decoration: none;
+  display: block;
+    padding: 0.3rem ;
+
 }
 
 .footer-section a:hover {
@@ -146,7 +149,6 @@ hr {
 
 .slide {
   padding: 3rem 14rem;
-  background: transparent;
   display: flex;
   justify-content: space-between;
 }
@@ -181,6 +183,7 @@ hr {
   display: flex;
   align-items: center;
   gap: 1rem;
+  
 }
 
 .icon i {
@@ -198,28 +201,26 @@ flex-direction: column;
 background: url(photos/Screenshot\ 2025-10-14\ 114435.png);
 background-size: cover;
 background-position: center;
-gap: 20px;
 color:black;
 align-items: center;
 justify-content: center;
-padding: 10rem ;
+height: 70vh;
 
 }
 
 .cta-card{
     color: white;
-    background-color: #192A3A;
     background: transparent;
     backdrop-filter: blur(4rem);
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    display: flex;
     flex-direction: column;
     border: 1px solid #47cce9  ;
     border-radius: 20px;
-    width: 60vw;
-    height: 50vh;
+    width: 60rem;
+    height: 25rem;
     gap: 2rem;
 }
 .cta-card button{
@@ -245,8 +246,6 @@ width: 35rem;
       height: auto;
         flex-direction: column;
         color: #fff;
-                
-
 
     padding:  0 6rem ;
     
@@ -269,15 +268,15 @@ width: 35rem;
     grid-template-columns: repeat(4,1fr);
          transition: transform 0.5s ease, box-shadow 0.20s ease;
     
-     /* background-color: #fff; */
+     
 }
 
  
     
-     /* background-color: #fff; */
+   
 
 .tast :hover {
-  /* transform: translateY(-10px); */
+ 
   transform: scale(1.05);
 }
 .card {
@@ -435,7 +434,7 @@ margin: 1rem 0;
   min-height: 100vh;
   align-items: center;
   color: #fff;
-  
+
   background: url(photos/Screenshot\ 2025-10-14\ 114435.png);
   background-size: cover;
   background-position: center;
@@ -490,10 +489,7 @@ color: white;
   height: 5rem;
   
 }
- footer a{
-  display: block !important;
-  padding: 0.4rem !important;
-}
+
 
 /* login */
 .Remember {
@@ -542,8 +538,6 @@ text-decoration: none;
   border: 0.2rem solid #00CFFF;
   outline: none;
   border-radius: 0.6rem;
-  /* background: transparent ; */
-  /* -webkit-appearance: none; */
  
   
 }
